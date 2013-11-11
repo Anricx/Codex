@@ -5,9 +5,10 @@ Simple PHP Sources Protection With PHP Extension
 
 Config
 =====
-<code>
-[codex]
-codex.enable = 1
-codex.x = "ba1dc1ea0cde5f03";
-codex.header = "Codex Tech."
-codex.display_ini_entries = 1</code>
+Add this in you php.ini
+<p><code>
+[codex]\n
+codex.enable = 1\n
+codex.x = "ba1dc1sav0cde5f03"\n
+codex.header = "D.T."\n
+codex.display_ini_entries = 1</code><p>
