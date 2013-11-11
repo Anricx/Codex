@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE extension SYSTEM "extension.dtd">
+<extension name="codex" version="1.0.0">
+	<summary>Codex PHP extension</summary>
+	<description>
+	This is a codex extension specification
+	showing how to use CodeGen_PECL for
+	extension generation.
+	</description>	
+	<maintainers>
+    	<maintainer>
+      		<user>dengt</user>
+      		<name>Deng Tao</name>
+      		<email>dengt@007ka.com</email>
+      		<role>lead</role>
+    	</maintainer>
+  	</maintainers>
+
+	<phpini name="enable" type="bool" access="system" value="1"/>	
+	<phpini name="x" type="string" access="system" value="ba1dc1ea0cde5f03"/>	
+	<phpini name="header" type="string" access="system" value="Codex Tech."/>	
+	<phpini name="display_ini_entries" type="bool" access="system" value="0"/>	
+
+	<!-- Module Information -->
+	<function role="internal" name="MINFO">
+ 	</function>
+
+</extension>

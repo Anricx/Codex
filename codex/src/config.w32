@@ -1,0 +1,8 @@
+// $ Id: $
+// vim:ft=javascript
+
+ARG_ENABLE('codex' , 'Codex PHP extension', 'no');
+if (PHP_CODEX == "yes") {
+  EXTENSION("codex", "codex.c");
+  AC_DEFINE("HAVE_CODEX", 1, "codex support");
+}
